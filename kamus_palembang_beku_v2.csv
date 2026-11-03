@@ -1,0 +1,473 @@
+kata_gaul,kata_baku,frek_latih,n_dok_latih,frek_uji,jenis,dikoreksi
+nak,mau,463,338,97,dialek,False
+indak,tidak,417,352,76,dialek,False
+wong,orang,346,274,61,dialek,False
+bae,saja,311,265,72,dialek,False
+ado,ada,310,261,87,dialek,False
+aku,saya,285,251,63,informal umum,False
+kalo,kalau,255,209,76,dialek,False
+nian,sekali,199,185,46,dialek,False
+dk,tidak,188,170,40,singkatan,False
+ya,iya,169,152,40,singkatan,False
+cak,seperti,168,152,33,dialek,False
+be,saja,154,133,37,dialek,False
+min,admin,145,133,29,singkatan,False
+idak,tidak,124,105,25,dialek,False
+samo,sama,113,100,20,dialek,False
+nih,ini,112,97,27,informal umum,False
+galo,semua,108,100,25,dialek,False
+jugo,juga,103,93,18,dialek,False
+kan,bukan,102,95,25,singkatan,False
+biso,bisa,101,86,32,dialek,False
+rame,ramai,101,95,20,dialek,False
+biar,agar,99,91,21,informal umum,False
+kito,kita,96,83,37,dialek,False
+nk,mau,87,72,26,dialek,False
+begawe,bekerja,83,74,11,dialek,False
+mano,mana,70,68,20,dialek,False
+men,kalau,69,58,9,dialek,False
+laju,jadi,68,58,12,dialek,False
+katek,tidak ada,65,61,15,dialek,False
+cubo,coba,60,58,10,dialek,False
+tau,tahu,57,53,16,singkatan,False
+lemak,enak,57,50,11,dialek,False
+gawe,kerja,56,53,9,dialek,False
+pacak,bisa,52,49,11,dialek,False
+gek,nanti,50,46,3,dialek,False
+tuh,itu,49,46,17,dialek,False
+sano,sana,46,41,8,dialek,False
+keno,kena,43,41,7,dialek,False
+ck,seperti,42,38,10,dialek,False
+ngapo,kenapa,42,41,10,dialek,False
+melok,ikut,41,36,8,dialek,False
+kak,kakak,40,38,9,singkatan,False
+nutup,menutup,37,30,9,singkatan,False
+iwak,ikan,37,34,14,dialek,False
+kambang,kolam,37,34,11,dialek,False
+balek,pulang,36,32,5,dialek,False
+ulu,hulu,35,32,13,singkatan,False
+cek,kakak perempuan,34,33,7,dialek,False
+uong,orang,34,27,2,dialek,False
+asap,secepat mungkin,34,27,4,informal umum,False
+jingok,lihat,34,34,4,dialek,False
+besak,besar,33,29,9,dialek,False
+pucuk,atas,33,30,3,dialek,False
+pro,ahli,32,27,3,informal umum,False
+usah,tidak usah,31,31,1,dialek,False
+kayak,seperti,31,30,4,informal umum,False
+dio,dia,30,28,2,dialek,False
+kau,kamu,30,25,7,singkatan,False
+bikin,buat,29,27,11,informal umum,False
+uji,kata,29,26,5,dialek,False
+galak,mau,29,27,5,dialek,False
+tanyo,tanya,29,27,1,dialek,False
+bgwe,bekerja,27,24,9,dialek,False
+dll,dan lain lain,27,22,8,singkatan,False
+telat,terlambat,26,24,2,singkatan,False
+karno,karena,25,19,4,dialek,False
+nn,nian,25,24,5,singkatan,False
+ngerokok,merokok,24,24,1,singkatan,False
+ilir,hilir,24,22,6,singkatan,False
+idk,tidak tahu,23,19,4,informal umum,False
+sikok,satu,23,21,2,dialek,False
+dem,sudah,22,20,3,dialek,False
+i,saya,22,20,3,informal umum,False
+pegi,pergi,21,20,3,singkatan,False
+siapo,siapa,21,21,1,dialek,False
+alangke,alangkah,20,20,4,dialek,False
+bgawe,bekerja,20,17,3,dialek,False
+tulah,itulah,20,19,3,singkatan,False
+iyo,iya,20,17,2,dialek,False
+komen,komentar,20,17,7,singkatan,False
+saro,susah,19,18,8,dialek,False
+dewek,sendiri,19,19,4,dialek,False
+pulo,juga,18,17,8,dialek,False
+guno,guna,18,17,3,dialek,False
+lantak,biarkan,17,17,3,dialek,False
+bejalan,berjalan,17,17,2,dialek,False
+wkwkwk,tertawa,16,15,0,informal umum,False
+wkwk,tertawa,16,14,4,informal umum,False
+uwong,orang,16,13,2,dialek,False
+gue,saya,16,15,0,informal umum,False
+disano,di sana,16,13,1,dialek,False
+apolagi,apalagi,15,15,3,dialek,False
+budak,anak,15,13,1,dialek,False
+pocok,atas,15,14,7,dialek,False
+bpk,bapak,15,14,6,singkatan,False
+oy,hai,15,15,2,dialek,False
+pns,panas,14,14,3,singkatan,False
+plembang,palembang,14,10,2,singkatan,False
+smo,sama,14,12,3,dialek,False
+segalo,semua,14,14,2,dialek,False
+dimano,dimana,14,14,3,dialek,False
+mati,meninggal,13,13,11,informal umum,False
+caro,cara,13,12,2,dialek,False
+banyu,air,13,10,2,dialek,False
+pulok,juga,13,12,5,dialek,False
+kawan,teman,13,11,0,dialek,False
+kesano,ke sana,13,13,2,dialek,False
+ktk,tidak ada,12,10,3,dialek,True
+item,hitam,12,9,1,informal umum,False
+mno,mana,12,12,5,dialek,False
+pck,bisa,12,10,0,dialek,False
+caknyo,sepertinya,12,12,0,dialek,False
+tula,itulah,12,12,1,singkatan,False
+bejubel,berjubel,12,11,2,dialek,False
+jgo,jaga,11,11,8,dialek,False
+pol,habis-habisan,11,11,0,dialek,False
+duit,uang,11,11,4,informal umum,False
+kuraso,kurasa,11,9,2,dialek,False
+punyo,punya,11,10,0,dialek,False
+payo,ayo,11,11,3,dialek,False
+anget,hangat,11,9,0,dialek,False
+berapo,berapa,10,9,0,dialek,False
+soalnyo,soalnya,10,9,3,dialek,False
+tekacip,terdiam,10,9,0,dialek,False
+kiro,kira,10,8,2,dialek,False
+pecak,seperti,10,8,0,dialek,False
+cakmano,bagaimana,10,10,0,dialek,False
+nyaroke,menyusahkan,10,10,1,dialek,False
+namonyo,namanya,10,10,4,dialek,False
+dpp,tidak apa-apa,10,10,2,dialek,False
+ckmn,bagaimana,10,9,1,dialek,False
+kagek,nanti,10,10,3,dialek,False
+ngpo,kenapa,10,9,4,dialek,False
+metu,keluar,9,9,1,dialek,False
+mikir,berpikir,9,9,2,dialek,False
+ketemu,bertemu,9,9,3,dialek,False
+kelah,lah,9,9,3,dialek,False
+dikit,sedikit,9,9,8,singkatan,False
+teraso,terasa,9,7,0,dialek,False
+buyan,bodoh,9,9,1,dialek,False
+totop,tutup,9,8,2,dialek,False
+hawo,udara,9,8,2,dialek,False
+tuo,tua,8,8,0,dialek,False
+agek,nanti,8,8,4,dialek,False
+kato,kata,8,8,5,dialek,False
+lebor,libur,8,7,1,dialek,False
+jago,bangun,8,8,3,dialek,False
+dsno,di sana,8,8,1,dialek,False
+mambu,bau,8,7,5,dialek,False
+ktek,tidak ada,8,8,2,dialek,False
+kuto,kota,8,8,0,dialek,False
+ngudut,merokok,8,8,0,dialek,False
+notop,ditutup,8,6,0,dialek,False
+macetnyo,macetnya,8,8,2,dialek,False
+nyubo,mencoba,8,8,0,dialek,False
+gilo,gila,8,7,1,dialek,False
+lupo,lupa,8,8,2,dialek,False
+amperah,ampera,7,5,0,dialek,False
+ujan,hujan,7,6,2,singkatan,False
+kiroi,kirain,7,6,0,dialek,False
+haha,tertawa,7,7,4,informal umum,False
+kendak,keinginan,7,6,0,dialek,False
+lolo,bodoh,7,7,2,dialek,False
+jalannyo,jalannya,7,7,1,dialek,False
+pening,pusing,6,6,1,dialek,False
+permanent,permanen,6,6,0,informal umum,False
+sebenernyo,sebenarnya,6,6,1,dialek,False
+baee,saja,6,5,2,dialek,False
+bakalan,akan,6,6,0,dialek,False
+bso,bisa,6,6,2,dialek,False
+buto,buta,6,6,1,dialek,False
+tempatnyo,tempatnya,6,6,3,dialek,False
+asak,asalkan,6,6,0,dialek,False
+tedok,tidur,6,6,0,dialek,False
+otw,sedang di jalan,6,6,0,singkatan,False
+lu,kamu,6,6,2,informal umum,False
+mamang,paman,6,6,2,dialek,False
+namo,nama,6,6,0,dialek,False
+dkt,dekat,6,6,1,singkatan,False
+ngapoi,sedang apa,6,6,1,dialek,False
+palak,kepala,6,6,1,dialek,False
+cbo,coba,6,5,0,dialek,False
+nnyo,tanya,6,5,1,dialek,True
+dag,tidak,6,5,0,dialek,False
+palembng,palembang,6,6,0,singkatan,False
+keruan,jelas,6,6,0,dialek,False
+jl,jalan,6,4,6,singkatan,False
+kelek,ketiak,6,6,2,dialek,False
+amun,kalau,6,6,0,dialek,False
+adonyo,adanya,6,5,2,dialek,False
+adoke,adakan,6,6,1,dialek,False
+wonk,orang,5,4,3,dialek,False
+makmano,bagaimana,5,5,1,dialek,False
+setujuh,setuju,5,4,0,dialek,False
+madak,masa,5,5,1,dialek,False
+masok,masuk,5,5,1,dialek,False
+hp,handphone,5,5,1,singkatan,False
+jlan,jalan,5,5,1,singkatan,False
+beberapo,beberapa,5,5,0,dialek,False
+koko,kakak laki-laki,5,5,0,informal umum,False
+kebanyakan,terlalu banyak,5,5,4,informal umum,False
+bolong,berlubang,5,4,2,dialek,False
+ok,oke,5,5,1,singkatan,False
+tlong,tolong,5,5,1,singkatan,False
+dimno,dimana,5,4,1,dialek,False
+capek,capai,5,5,0,dialek,False
+mnggu,minggu,5,4,0,singkatan,False
+betanyo,bertanya,5,5,0,dialek,False
+bini,istri,4,4,0,dialek,False
+tanyoke,tanyakan,4,3,0,dialek,False
+macettt,macet,4,4,0,pemanjangan,False
+malek,lagi,4,4,2,dialek,False
+mantab,mantap,4,4,5,dialek,False
+ambek,ambil,4,4,3,dialek,False
+bagusnyo,bagusnya,4,4,1,dialek,False
+olga,olahraga,4,4,0,singkatan,False
+ceto,pasti,4,4,0,dialek,False
+lor,saudara,4,4,1,dialek,False
+laki,suami,4,4,0,dialek,False
+ksno,ke sana,4,4,3,dialek,False
+lokasinyo,lokasinya,4,4,0,dialek,False
+supayo,supaya,4,4,2,dialek,False
+kiroin,kirain,4,4,1,dialek,False
+iti,itu,4,4,0,informal umum,False
+bengak,bodoh,4,4,5,dialek,False
+rai,wajah,4,4,2,dialek,False
+berenti,berhenti,3,3,0,dialek,False
+peh,ayo,3,3,1,dialek,False
+pindahke,pindahkan,3,3,0,dialek,False
+nemu,bertemu,3,3,1,dialek,False
+bepikir,berpikir,3,3,1,dialek,False
+teko,datang,3,3,0,dialek,False
+tejingok,terlihat,3,3,2,dialek,False
+ontok,untuk,3,3,0,dialek,False
+dmno,dimana,3,3,3,dialek,False
+mggu,minggu,3,3,0,singkatan,False
+dulur,saudara,3,1,0,dialek,False
+lokak,pekerjaan,3,3,1,dialek,False
+ejoke,menemani,3,3,2,dialek,False
+duo,dua,3,3,3,dialek,False
+cindo,cantik,3,3,0,dialek,False
+teros,terus,3,3,3,dialek,False
+baco,baca,3,3,0,dialek,False
+waktunyo,waktunya,3,3,0,dialek,False
+apodio,apa,3,3,0,dialek,False
+diributke,diributkan,3,3,0,dialek,False
+nyaroi,menyusahkan,3,3,1,dialek,False
+cfdnyo,cfdnya,3,3,1,dialek,False
+ngatoke,mengatakan,3,3,0,dialek,False
+mikirke,memikirkan,3,3,3,dialek,False
+hihi,tertawa,3,3,0,informal umum,False
+keringet,keringat,3,3,0,dialek,False
+kemano,kemana,3,3,0,dialek,False
+kangen,rindu,3,3,0,dialek,False
+ruponyo,rupanya,3,3,1,dialek,False
+macet2,macet-macet,3,3,1,singkatan,False
+krg,kurang,3,3,0,singkatan,False
+lanjutkann,lanjutkan,3,3,0,pemanjangan,False
+kelakar,bercanda,3,3,0,dialek,False
+kelamoan,terlalu lama,3,3,0,dialek,False
+wako,wali kota,3,3,5,singkatan,False
+anjir,wah,2,2,0,informal umum,False
+anjay,anjir,2,2,0,informal umum,False
+tepakso,terpaksa,2,2,0,dialek,False
+telatt,terlambat,2,2,0,pemanjangan,False
+tekeno,terkena,2,2,0,dialek,False
+mangko,makanya,2,2,1,dialek,False
+reti,mengerti,2,2,2,dialek,False
+mantaps,mantap,2,2,0,informal umum,False
+like,suka,2,2,2,informal umum,False
+senyum,tersenyum,2,2,1,singkatan,False
+senengnyo,senangnya,2,2,0,dialek,False
+sedioke,sediakan,2,2,0,dialek,False
+lo,kamu,2,1,0,informal umum,False
+lmk,enak,2,2,1,dialek,False
+sklian,sekalian,2,2,1,singkatan,False
+smpeke,sampaikan,2,2,0,dialek,False
+spill,bocorkan,2,2,0,informal umum,False
+fyp,for your page,2,2,0,informal umum,False
+gancang,cepat,2,2,0,dialek,False
+macett,macet,2,2,2,pemanjangan,False
+ssh,susah,2,2,0,singkatan,False
+speda,sepeda,2,2,0,singkatan,False
+sip,baik,2,2,0,informal umum,False
+seraso,serasa,2,2,0,dialek,False
+kayaknya,sepertinya,2,2,0,dialek,False
+katoke,katakan,2,2,1,dialek,False
+hehe,tertawa,2,2,1,informal umum,False
+ksian,kasihan,2,2,0,singkatan,False
+kesel,kesal,2,2,0,dialek,False
+tambahke,tambahkan,2,2,0,dialek,False
+belago,berkelahi,2,2,0,dialek,False
+belanjo,belanja,2,2,0,dialek,False
+jir,wah,2,2,0,informal umum,False
+baseng,terserah,2,2,1,dialek,False
+stgh,setengah,2,2,2,singkatan,False
+ladas,puas,2,2,1,dialek,False
+katik,tidak ada,2,2,0,dialek,False
+ringam,kesal,2,2,0,dialek,False
+ngopi,minum kopi,2,2,0,informal umum,False
+parkirnyo,parkirnya,2,2,1,dialek,False
+btw,ngomong-ngomong,2,2,1,informal umum,False
+buru2,buru-buru,2,2,0,informal umum,False
+plis,tolong,2,2,1,informal umum,False
+meraso,merasa,2,2,0,dialek,False
+besaknyo,besarnya,2,2,0,dialek,False
+makini,seperti ini,2,2,1,dialek,False
+mager,malas gerak,2,2,0,informal umum,False
+gaskeun,ayo,2,2,1,informal umum,False
+cakni,seperti ini,2,2,0,dialek,False
+podio,apa,2,2,0,dialek,False
+mngkn,mungkin,2,2,0,singkatan,False
+payah,sulit,2,2,1,dialek,False
+cugak,kecewa,2,2,0,dialek,False
+norak,kampungan,2,2,0,dialek,False
+numpang,menumpang,2,2,2,singkatan,False
+nyingok,melihat,2,2,0,dialek,False
+cmiiw,koreksi jika saya salah,2,2,0,informal umum,False
+cerito,cerita,2,2,0,dialek,False
+paginyo,paginya,2,2,0,dialek,False
+omngke,bilangin,2,2,0,dialek,False
+dipocok,di atas,2,2,0,dialek,False
+terbangke,terbangkan,2,2,0,dialek,False
+dikit2,sedikit-sedikit,2,2,0,dialek,False
+tetanggo,tetangga,2,2,0,dialek,False
+bajunyo,bajunya,2,2,0,dialek,False
+jola,pelacur,2,1,0,dialek,False
+uong2,orang orang,2,2,0,dialek,False
+alternatifnyo,alternatifnya,2,2,1,dialek,False
+agok,peduli,1,1,2,dialek,False
+akhirnyo,akhirnya,1,1,1,dialek,False
+aktivitasnyo,aktivitasnya,1,1,0,dialek,False
+anaknyo,anaknya,1,1,0,dialek,False
+ty,terima kasih,1,1,0,singkatan,False
+uwong2,orang-orang,1,1,0,dialek,False
+viralke,viralkan,1,1,0,dialek,False
+vs,lawan,1,1,0,informal umum,False
+jm,jam,1,1,1,singkatan,False
+jmbtan,jembatan,1,1,0,singkatan,False
+ati,hati,1,1,0,dialek,False
+awak,diri,1,1,0,dialek,False
+tetompok,tertumpuk,1,1,0,dialek,False
+thx,terima kasih,1,1,0,informal umum,False
+tinggalke,tinggalkan,1,1,0,dialek,False
+tnggung,tanggung,1,1,0,singkatan,False
+tny,tanya,1,1,0,singkatan,False
+tol,tolol,1,1,0,singkatan,False
+daktau,tidak tahu,1,1,0,dialek,False
+dalu,malam,1,1,1,dialek,False
+dek,adik,1,1,0,dialek,False
+dikatoke,dikatakan,1,1,1,dialek,False
+ngorbanke,mengorbankan,1,1,0,dialek,False
+nikah,menikah,1,1,0,singkatan,False
+nongkrong,kumpul,1,1,0,informal umum,False
+nujah,menikam,1,1,0,dialek,False
+nutupke,menutupkan,1,1,0,dialek,False
+nyampak,jatuh,1,1,1,dialek,False
+nyri,mencari,1,1,2,dialek,False
+ongkos,biaya,1,1,0,dialek,False
+cawa,bohong,1,1,0,dialek,False
+ckitu,seperti itu,1,1,1,dialek,False
+efekny,efeknya,1,1,0,singkatan,False
+empai,baru,1,1,0,dialek,False
+monggo,silakan,1,1,0,informal umum,False
+muko,muka,1,1,0,dialek,False
+nanyoi,menanyakan,1,1,0,dialek,False
+nauzubillah,na'udzubillah,1,1,0,singkatan,False
+ngebuka,membuka,1,1,0,dialek,False
+ngejoi,menemani,1,1,0,dialek,False
+ngeliatnyo,melihatnya,1,1,0,dialek,False
+dahlah,sudahlah,1,1,0,singkatan,False
+cuko,cuka,1,1,0,dialek,False
+pasilitas,fasilitas,1,1,1,dialek,False
+perot,perut,1,1,0,dialek,False
+plb,palembang,1,1,0,singkatan,False
+borok,luka,1,1,0,dialek,False
+bujang,pemuda,1,1,0,dialek,False
+buntu,tidak punya uang,1,1,1,dialek,False
+mbludak,membludak,1,1,0,singkatan,False
+merasoke,merasakan,1,1,0,dialek,False
+mhn,mohon,1,1,1,singkatan,False
+mn2,mana-mana,1,1,0,singkatan,False
+mokasih,terima kasih,1,1,0,dialek,False
+dket,dekat,1,1,0,dialek,False
+dngn,dengan,1,1,0,singkatan,False
+dpet,dapat,1,1,0,dialek,False
+dst,dan seterusnya,1,1,0,informal umum,False
+dtng,datang,1,1,1,singkatan,False
+plusi,polusi,1,1,0,singkatan,False
+pnjngke,panjangin,1,1,0,singkatan,False
+rameee,ramai,1,1,0,pemanjangan,False
+ramerame,ramai-ramai,1,1,0,dialek,False
+rasanyo,rasanya,1,1,0,dialek,False
+betino,perempuan,1,1,0,dialek,False
+bgst,bangsat,1,1,0,singkatan,False
+bknnya,bukannya,1,1,0,singkatan,False
+gino,terlalu,1,1,2,dialek,False
+goblok,bodoh,1,1,0,informal umum,False
+gub,gubernur,1,1,3,singkatan,False
+maksoke,memaksakan,1,1,0,dialek,False
+maling,pencuri,1,1,1,dialek,False
+mangkonyo,makanya,1,1,0,dialek,False
+matike,matikan,1,1,0,dialek,False
+bnagun,bangun,1,1,0,informal umum,False
+bocil,anak kecil,1,1,1,informal umum,False
+rasoke,rasakan,1,1,0,dialek,False
+receh,murahan,1,1,0,dialek,False
+salahnyo,salahnya,1,1,0,dialek,False
+sanak,saudara,1,1,0,dialek,False
+sdgkan,sedangkan,1,1,0,singkatan,False
+sedihnyo,sedihnya,1,1,0,dialek,False
+sediokelah,sediakanlah,1,1,0,dialek,False
+sempitnyo,sempitnya,1,1,0,dialek,False
+laper,lapar,1,1,0,dialek,False
+enjuk,beri,1,1,0,dialek,False
+faham,paham,1,1,0,dialek,False
+gapapa,tidak apa-apa,1,1,0,singkatan,False
+ser,sering,1,1,0,singkatan,False
+sesamo,sesama,1,1,0,dialek,False
+setujuu,setuju,1,1,0,pemanjangan,False
+share,bagikan,1,1,0,informal umum,False
+siso,sisa,1,1,0,dialek,False
+skalian,sekalian,1,1,0,singkatan,False
+snooo,sana,1,1,0,pemanjangan,False
+sorenyo,sorenya,1,1,0,dialek,False
+hehehe,tertawa kecil,1,1,0,informal umum,False
+hihihi,tertawa kecil,1,1,0,informal umum,False
+hoax,bohong,1,1,0,informal umum,False
+ig,instagram,1,1,0,singkatan,False
+imo,menurut pendapatku,1,1,0,informal umum,False
+kuping,telinga,1,1,0,informal umum,False
+lahiran,melahirkan,1,1,0,singkatan,False
+lamonyo,lamanya,1,1,0,dialek,False
+lanjoooottt,lanjut,1,1,0,pemanjangan,False
+lanjuke,lanjutkan,1,1,0,dialek,False
+stngah,setengah,1,1,0,singkatan,False
+stuju2,setuju,1,1,0,singkatan,False
+susahnyo,susahnya,1,1,0,dialek,False
+takot,takut,1,1,0,dialek,False
+takutt,takut,1,1,0,pemanjangan,False
+banjirnyo,banjirnya,1,1,0,dialek,False
+banyaknyo,banyaknya,1,1,0,dialek,False
+benerke,benarkan,1,1,0,dialek,False
+benernyo,benarnya,1,1,0,dialek,False
+jelasin,menjelaskan,1,1,0,informal umum,False
+jelaske,jelaskan,1,1,0,dialek,False
+jem,jam,1,1,0,dialek,False
+kirony,kiranya,1,1,0,dialek,False
+klrg,keluarga,1,1,0,singkatan,False
+kmacetan,kemacetan,1,1,0,singkatan,False
+halu,halusinasi,1,1,0,singkatan,False
+katonyo,katanya,1,1,2,dialek,False
+kece,keren,1,1,0,dialek,False
+keluarke,mengeluarkan,1,1,0,dialek,False
+kembang,bunga,1,1,0,dialek,False
+kepalak,kepala,1,1,0,dialek,False
+jalanke,jalankan,1,1,0,dialek,False
+jaoh,jauh,1,1,1,dialek,False
+bepoto,berfoto,1,1,0,dialek,False
+tarok,taruh,1,1,0,dialek,False
+tepampang,terlihat,1,1,0,dialek,False
+tepikir,terpikir,1,1,1,dialek,False
+tepotong,terpotong,1,1,0,dialek,False
+anjg,anjing,1,1,0,singkatan,False
+tutupke,tutupkan,1,1,0,dialek,False
+wongg,orang,1,1,0,dialek,False
+wongnyo,orangnya,1,1,0,dialek,False
+adek,adik,1,1,0,dialek,False
+7an,tujuan,1,1,0,dialek,False
+yai,kakek,1,1,0,dialek,False
+yaudah,ya sudah,1,1,0,informal umum,False
+zonk,kosong,1,1,0,informal umum,False
