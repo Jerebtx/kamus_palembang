@@ -1,43 +1,46 @@
-# 📖 Dataset Kamus Bahasa Palembang (Slang ke Baku)
+# Kamus Normalisasi Dialek Palembang (Versi Beku)
 
-Repository ini berisi dataset *open-source* pemetaan kosakata bahasa gaul/sehari-hari Palembang ke dalam Bahasa Indonesia baku. 
+Repositori ini berisi sumber daya pendukung artikel:
 
-Dataset ini sangat cocok digunakan sebagai kamus *slang words* untuk tahapan *text preprocessing* (normalisasi teks) dalam penelitian *Data Science*, *Text Mining*, maupun *Natural Language Processing* (NLP) seperti *Sentiment Analysis* pada data media sosial atau ulasan *e-commerce*.
+> Siahaan, J. A., Indah, D. R., Ariani, A., Syahbani, M. H., & Ibrahim, A. *Normalisasi Leksikal Dialek Palembang pada Analisis Sentimen Berbasis Aspek Car Free Day Menggunakan IndoBERT.* MALCOM: Indonesian Journal of Machine Learning and Computer Science (dalam proses terbit).
 
-## 📂 Struktur Data
+Isinya adalah kamus normalisasi dialek Palembang yang dipakai pada eksperimen, skrip pembekuannya, dan pedoman anotasi sentimen.
 
-Data utama tersimpan di dalam file `kamus_palembang.csv`. File ini terdiri dari dua kolom utama:
+## Isi repositori
 
-- `kata_gaul`: Kosakata bahasa Palembang sehari-hari, singkatan, atau bahasa slang (contoh: *ad*, *adek*, *pacak*).
-- `kata_baku`: Terjemahan atau padanan katanya dalam Bahasa Indonesia standar (contoh: *ada*, *adik*, *bisa*).
+| File / folder | Keterangan |
+| --- | --- |
+| `kamus_palembang_beku_v2.csv` | **Kamus yang dipakai pada eksperimen.** Berisi 472 entri, dibekukan hanya dari data latih. |
+| `fase1v2_kamus_beku.py` | Skrip pembekuan kamus (dijalankan di Google Colab). |
+| `pedoman_anotasi.pdf` | Pedoman anotasi sentimen (Negatif, Netral, Positif) beserta aturan kasus sulit. |
+| `versi_awal/kamus_palembang.csv` | Kamus lengkap sebelum pembekuan (2.103 entri). **Tidak dipakai pada eksperimen**; disimpan sebagai arsip. |
 
-**Contoh isi dataset:**
-| kata_gaul | kata_baku |
-| :--- | :--- |
-| acung | acung |
-| ad | ada |
-| adek | adik |
+## Kolom kamus beku
 
-## 🚀 Cara Penggunaan (Python/Pandas)
+| Kolom | Arti |
+| --- | --- |
+| `kata_gaul` | Bentuk dialek atau tidak baku yang dinormalisasi |
+| `kata_baku` | Bentuk baku pengganti |
+| `jenis` | `dialek`, `singkatan`, `informal umum`, atau `pemanjangan` |
+| `frek_latih` | Frekuensi kemunculan pada data latih |
+| `n_dok_latih` | Jumlah komentar data latih yang memuat kata tersebut |
+| `dikoreksi` | `True` untuk dua entri yang dikoreksi sebelum eksperimen (*ktk* → "tidak ada", *nnyo* → "tanya") |
 
-Jika kamu ingin menggunakan dataset ini di Google Colab atau *environment* Python lainnya untuk mengubah teks slang menjadi baku, kamu bisa menggunakan contoh kode Pandas berikut:
+Komposisi: 329 dialek, 78 singkatan, 56 informal umum, dan 9 pemanjangan huruf.
 
-```python
-import pandas as pd
+## Cara kamus dibekukan
 
-# Load dataset
-df_kamus = pd.read_csv('kamus_palembang.csv')
+1. Seluruh korpus (4.372 komentar) dibagi lebih dulu menjadi data latih, validasi, dan uji berbasis unggahan (3.155 / 389 / 828 komentar). Pembagian dikunci sebelum kamus dibekukan.
+2. Kamus lengkap diterapkan **hanya pada data latih**, setelah normalisasi dengan Colloquial Indonesian Lexicon (github.com/nasalsabila/kamus-alay).
+3. Entri dipertahankan hanya bila kata asalnya muncul pada data latih dan entri tersebut benar-benar mengubah kata. Kata yang hanya muncul pada data validasi atau uji tidak masuk kamus.
+4. Dua entri yang keliru dikoreksi sebelum eksperimen, lalu kamus dikunci dan tidak diubah lagi setelah hasil eksperimen dilihat.
 
-# Buat dictionary untuk mapping
-slang_dict = dict(zip(df_kamus['kata_gaul'], df_kamus['kata_baku']))
+Urutan penerapan pada pra-pemrosesan: *case folding* dan pembersihan teks → kamus gaul umum → kamus Palembang beku → penghapusan *stopword* minimal (kata negasi dipertahankan).
 
-# Contoh fungsi normalisasi teks
-def normalisasi_teks(teks):
-    kata_kata = teks.split()
-    kata_normal = [slang_dict.get(kata, kata) for kata in kata_kata]
-    return " ".join(kata_normal)
+## Catatan data
 
-# Test fungsi
-teks_kotor = "adek ad di rumah"
-teks_bersih = normalisasi_teks(teks_kotor)
-print(teks_bersih) # Output: adik ada di rumah
+Komentar mentah Instagram dan TikTok **tidak dibagikan** untuk melindungi privasi pengguna dan mematuhi ketentuan platform. Karena itu, skrip pembekuan disertakan untuk menunjukkan prosedurnya, tetapi tidak dapat dijalankan ulang tanpa data tersebut.
+
+## Lisensi
+
+Kamus dan pedoman dapat digunakan untuk keperluan penelitian dengan mencantumkan sitasi artikel di atas.
